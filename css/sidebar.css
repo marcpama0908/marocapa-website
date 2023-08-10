@@ -1,0 +1,51 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0px;
+  align-items: center;
+}
+.sidebar-link {
+  height: 60px;
+  width: 60px;
+  transition: background-color 0.35s;
+  cursor: pointer;
+  align-items: center;
+}
+.sidebar-link:hover {
+  background-color: rgb(150, 148, 148);
+}
+.home {
+  height: 40px;
+  width: 40px;
+  margin-left: 9px;
+  align-items: center;
+  padding-top: 5px;
+}
+.profile {
+  height: 40px;
+  width: 40px;
+  margin-left: 9px;
+  align-items: center;
+  object-fit: cover;
+  padding-top: 5px;
+  border-radius: 20px;
+}
+.messenger-relative {
+  position: relative;
+}
+.messenger-absolute {
+  position: absolute;
+  top: -10px;
+  right: 8px;
+}
+.messenger-absolute p {
+  background-color: red;
+  color: white;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-size: 12px;
+}

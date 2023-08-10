@@ -1,0 +1,11 @@
+p {
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  font-size: 12px;
+}
+body {
+  background-color: rgb(224, 200, 200);
+}
+span {
+  color: gray;
+}
